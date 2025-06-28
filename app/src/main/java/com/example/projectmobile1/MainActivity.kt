@@ -16,17 +16,11 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val profileBtn:Button = findViewById(R.id.profileBtn);
-
-        profileBtn.setOnClickListener {
-            val pindah:Intent = Intent(this,ProfileActivity::class.java)
-            startActivity(pindah);
         }
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
-//        }
+//   
     }
-}
